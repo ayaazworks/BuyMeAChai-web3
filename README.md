@@ -1,16 +1,55 @@
-# React + Vite
+# Chai DApp ☕
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A decentralized application (DApp) built with the MERN stack principles and Web3 technology. This project allows users to support creators by sending small Ethereum tips ("Chai") along with a personalized message.
 
-Currently, two official plugins are available:
+## 🚀 Features
+* **Wallet Integration:** Connect seamlessly with MetaMask.
+* **Smart Contract Interaction:** Send tips directly to a deployed Solidity contract using Ethers.js.
+* **Real-time Updates:** View a list of "memos" from supporters (GetMemos).
+* **Responsive UI:** Clean, dark-themed interface built with React and Inline CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+* **Frontend:** React.js (Vite)
+* **Blockchain Library:** Ethers.js (v6)
+* **Styling:** Inline CSS (for lightweight performance)
+* **Smart Contract:** Solidity
 
-## React Compiler
+## 📦 Installation & Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/ayaazworks/BuyMeAChai-web3.git](https://github.com/ayaazworks/BuyMeAChai-web3.git)
+   cd my-app
+````
 
-## Expanding the ESLint configuration
+2.  **Install dependencies**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**
+
+    ```bash
+    npm run dev
+    ```
+
+## 📝 Usage
+
+1.  Ensure you have the **MetaMask** extension installed in your browser.
+2.  Connect your wallet to the appropriate testnet (e.g., Sepolia).
+3.  Enter your name and a message in the "Buy me a Chai" form.
+4.  Click the button and confirm the transaction in MetaMask.
+
+## 👤 Author
+
+**Mohd Ayaaz Siddiqui**
+
+  * Full Stack & Web3 Developer
+  * [LinkedIn](https://www.linkedin.com/in/mohd-ayaaz/)
+
+-----
+
+*Created with ❤️ for the Web3 community.*
+
+```
