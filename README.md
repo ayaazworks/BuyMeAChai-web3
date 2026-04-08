@@ -1,5 +1,4 @@
-```markdown
-# Chai DApp ☕
+## Chai DApp ☕
 
 A decentralized application (DApp) built with the MERN stack principles and Web3 technology. This project allows users to support creators by sending small Ethereum tips ("Chai") along with a personalized message.
 
@@ -18,7 +17,7 @@ A decentralized application (DApp) built with the MERN stack principles and Web3
 ## 📦 Installation & Setup
 
 1. **Clone the repository**
-   ``bash
+   ```bash
    git clone https://github.com/ayaazworks/BuyMeAChai-web3.git
    cd my-app
    ```
