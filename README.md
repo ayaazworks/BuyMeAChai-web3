@@ -19,13 +19,12 @@ A decentralized application (DApp) built with the MERN stack principles and Web3
 1. **Clone the repository**
    ```bash
    git clone https://github.com/ayaazworks/BuyMeAChai-web3.git
-   cd my-app
+   cd BuyMeAChai-web3
    ```
 
 2. **Install dependencies**
    ```bash
-   git clone https://github.com/ayaazworks/BuyMeAChai-web3.git
-   cd BuyMeAChai-web3
+   npm i
    ```
 
 3. **Run the development server**
