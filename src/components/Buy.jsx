@@ -77,7 +77,7 @@ const Buy = ({ state }) => {
           </label>
           <input 
             type="text" placeholder="Enter Your Message" id="message" required 
-            style={{ width: '100%', padding: '0.75rem', backgroundColor: '#0f172a', border: '1px solid #475569', borderRadius: '0.5rem', color: '#f8fafc', outline: 'none', boxSizing: 'border-box' }}
+            style={{ width: '100%', padding: '0.75rem', backgroundColor: '#0f172a', border: '1px solid #475569', borderRadius: '0.5rem', color: '#f8fafc', outline: 'none', boxSizing: 'border-box', marginBottom: '-0.2rem' }}
           />
         </div>
 

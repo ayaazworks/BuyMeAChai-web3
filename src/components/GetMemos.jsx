@@ -22,18 +22,12 @@ const GetMemos = ({ state }) => {
   }, [contract]);
 
   return (
-  <div style={{
-    padding: '2rem',
-    backgroundColor: '#0f172a', // slate-900
-    minHeight: '100vh',
-    color: '#f8fafc',
-    fontFamily: 'system-ui, -apple-system, sans-serif'
-  }}>
+  <>
     <h3 style={{
       fontSize: '1.875rem',
       fontWeight: '700',
-      marginBottom: '1.5rem',
-      color: '#34d399' // emerald-400
+      color: '#34d399',
+      marginTop: "-0.5rem",
     }}>
       Recent Memos
     </h3>
@@ -92,14 +86,14 @@ const GetMemos = ({ state }) => {
           ) : (
             <tr>
               <td colSpan="3" style={{ padding: '2rem', textAlign: 'center' }}>
-                No memos yet!
+                Connecting to blockchain...
               </td>
             </tr>
           )}
         </tbody>
       </table>
     </div>
-  </div>
+  </>
 );
 };
 
